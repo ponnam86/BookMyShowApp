@@ -12,7 +12,9 @@ Java, Spring Boot, Spring Data JPA, Postman, MySQL Database and OpenAPI
 
 API Endpoints
 GET /movie: Get a list of movies.
+
 GET /movie/{id}: Get detailed information about a specific movie.
+
 GET /movie?genre=Drama: Get a list of movies based on genre.
 GET /movie?date=2024-01-22: Get a list of movies based on date.
 GET /movie?movieName="avatar": Get a list of movies based on title.
