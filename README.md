@@ -16,11 +16,19 @@ GET /movie: Get a list of movies.
 GET /movie/{id}: Get detailed information about a specific movie.
 
 GET /movie?genre=Drama: Get a list of movies based on genre.
+
 GET /movie?date=2024-01-22: Get a list of movies based on date.
+
 GET /movie?movieName="avatar": Get a list of movies based on title.
+
 GET /movie?location="pvr": Get a list of movies based on location.
+
 GET /movie/order-history: Get booking history.
+
 POST /movie: Add a new movie.
+
 POST /movie/book-seat?movieId=91&&showDate=2024-01-22&&showTime="06:00 pm": Create a new booking.
+
 DELETE /movie/{movieId}: Delete a movie.
+
 PUT /movie/{movieId}: Update movie information.
