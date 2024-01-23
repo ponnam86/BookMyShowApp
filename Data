@@ -1,0 +1,55 @@
+// moviedetails
+{
+  "movieName": "hanuman",
+  "image": "image/path",
+  "movieDetails": "hanuman",
+  "showDate":"2024-01-15",
+  "showTime":[
+  "09:00 am",
+  "12:00 pm",
+  "06:00 pm"
+  ],
+  "genre":"Drama, Action",
+  "city":"Hyderabad",
+  "location":"PVR",
+  "language":"Telugu",
+  "totalSeats":80,
+  "availableSeats":70,
+  "price":100.00
+}
+{
+  "movieName": "salaar",
+  "image": "image/path",
+  "movieDetails": "salaar",
+  "showDate":"2024-01-25",
+  "showTime":[
+  "09:00 am",
+  "12:00 pm",
+  "06:00 pm"
+  ],
+  "genre":"Drama, Action",
+  "city":"Hyderabad",
+  "location":"Inox",
+  "language":"Telugu",
+  "totalSeats":20,
+  "availableSeats":10,
+  "price":200.00
+}
+
+//customer
+{
+  "name":"test1",
+  "email":"test1@gmail.com",
+  "password":"test"
+}
+
+// get movie details
+//http://localhost:8080/movie?movieName=hanuman&location=Chennai&language=Telugu
+
+//book seat
+//http://localhost:8080/movie/book-seat?movieId=1&&showDate=2024-01-25&&showTime=09:00 am
+{
+    "seatNo":[
+    "01","02"
+]
+}
